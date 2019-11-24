@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo Form và các điều khiển</title>
+    <style>
+        td{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" style="border-collapse: collapse; width: 600px; height: 200px;background-color: greenyellow;" align="center" >
+        <h1 align="center" style="color: green;">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text"> </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><input type="text "></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Phái</td>
+            <td><input type="radio" name="gioitinh" checked="checked"> Nam
+            <input type="radio" name="gioitinh">Nữ</td>
+        </tr>
+        <tr>
+            <td> Nghề nghiệp</td>
+            <td>
+                <select>
+                    <option>Bác sĩ</option>
+                    <option>Kỹ sư</option>
+                    <option>Giáo viên</option>
+                    <option>Khác</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Chọn sản phẩm tham gia</td>
+            <td>
+                <select multiple="multiple">
+                    <option selected="selected">Kem đánh răng</option>
+                    <option>Bột giặt</option>
+                    <option selected="selected">Dầu gội đầu</option>
+                    <option>Sữa tắm</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Số người dự đoán tham gia</td>
+            <td><input type="text>"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="button" value="Đồng ý"></td>
+        </tr>
+    </table>
+</body>
+</html>
