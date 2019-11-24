@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: #cc6600;
+}
+table{
+    border-collapse: separate;
+    width: 50%;
+}
+div{
+    display: flex;
+}
+th{
+    color: #ffffff;
+    background-color: #cc6600;
+}
+#trang{
+    background-color: #ffffff;
+}
+body{
+    background-color: #ffedca;
+    text-align: center;
+}

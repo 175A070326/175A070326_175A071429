@@ -1,0 +1,23 @@
+div{
+    text-align: center;
+    font-style: italic;
+    background-color: #ffffcc;
+}
+p1{
+    color: #0000FF;
+}
+p2{
+    color: orangered;
+}
+p3{
+    color:#006600 ;
+}
+hr{
+    width: 200px;
+}
+h3{
+    text-align: center;
+    background-color: #FECFFD;
+    color:#FF3399 ;
+    font-weight: bold;
+}

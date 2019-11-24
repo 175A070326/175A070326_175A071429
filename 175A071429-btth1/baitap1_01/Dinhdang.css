@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-decoration:Bold ;
+}
+div{
+    font-weight: bold;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #006600;
+    font-weight: bold;
+
+}
+h2{
+    text-decoration: underline;
+    color: #0000FF;
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+}
+
